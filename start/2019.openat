@@ -9,7 +9,7 @@ openat(AT_FDCWD, "/usr/local/texlive/2019/texmf-dist", O_RDONLY|O_NONBLOCK|O_CLO
 openat(AT_FDCWD, "/home/jfine/.texlive2019/texmf-config/tex/plain/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/jfine/.texlive2019/texmf-var/tex/plain/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/usr/local/texlive/2019/texmf-dist/tex/plain/knuth-lib/story.tex", O_RDONLY) = 3
-openat(AT_FDCWD, "/home/jfine/.texlive2019/texmf-var/web2c/pdftex/pdftex.fmt", O_RDONLY) = 3
+openat(AT_FDCWD, "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdftex.fmt", O_RDONLY) = 3
 openat(AT_FDCWD, "/usr/local/texlive/2019/texmf-dist/tex/plain/knuth-lib/story.tex", O_RDONLY) = 3
 openat(AT_FDCWD, "/home/jfine/.texlive2019/texmf-config/fonts/vf/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/jfine/.texlive2019/texmf-var/fonts/vf/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)

@@ -1,7 +1,7 @@
 PWD /home/jfine/scratch/y2021p005/start
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
-INPUT /home/jfine/.texlive2019/texmf-var/web2c/pdftex/pdftex.fmt
+INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdftex.fmt
 INPUT /usr/local/texlive/2019/texmf-dist/tex/plain/knuth-lib/story.tex
 OUTPUT story.log
 OUTPUT story.pdf

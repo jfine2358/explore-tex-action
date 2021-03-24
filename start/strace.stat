@@ -1,30 +1,30 @@
-stat("/home/jfine/.local/bin/pdftex", 0x7ffdba5c5c30) = -1 ENOENT (No such file or directory)
-stat("/usr/local/sbin/pdftex", 0x7ffdba5c5c30) = -1 ENOENT (No such file or directory)
+stat("/home/jfine/.local/bin/pdftex", 0x7fff727ed8b0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/pdftex", 0x7fff727ed8b0) = -1 ENOENT (No such file or directory)
 stat("/usr/local/bin/pdftex", {st_mode=S_IFREG|0755, st_size=2219712, ...}) = 0
 stat("/usr/local/texlive/2019/bin/x86_64-linux", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
-stat("/usr/local/texlive/2019/bin/x86_64-linux/share/texmf-local/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/x86_64-linux/share/texmf-dist/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/x86_64-linux/share/texmf/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/x86_64-linux/texmf-local/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/x86_64-linux/texmf-dist/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/x86_64-linux/texmf/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/x86_64-linux/share/texmf-local/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/x86_64-linux/share/texmf-dist/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/x86_64-linux/share/texmf/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/x86_64-linux/texmf-local/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/x86_64-linux/texmf-dist/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/x86_64-linux/texmf/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
 stat("/usr/local/texlive/2019/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-stat("/usr/local/texlive/2019/bin/share/texmf-local/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/share/texmf-dist/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/share/texmf/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/texmf-local/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/texmf-dist/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/bin/texmf/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/share/texmf-local/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/share/texmf-dist/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/share/texmf/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/texmf-local/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/texmf-dist/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/bin/texmf/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
 stat("/usr/local/texlive/texmf-local/web2c", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat("/usr/local/texlive/2019", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat("/usr/local/texlive/2019/texmf.cnf", {st_mode=S_IFREG|0644, st_size=551, ...}) = 0
-stat("/usr/local/texlive/2019/share/texmf-local/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/share/texmf-dist/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/share/texmf/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
-stat("/usr/local/texlive/2019/texmf-local/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/share/texmf-local/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/share/texmf-dist/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/share/texmf/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/texmf-local/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
 stat("/usr/local/texlive/2019/texmf-dist/web2c", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat("/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf", {st_mode=S_IFREG|0644, st_size=35430, ...}) = 0
-stat("/usr/local/texlive/2019/texmf/web2c", 0x7ffdba5c59c0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/texmf/web2c", 0x7fff727ed640) = -1 ENOENT (No such file or directory)
 stat("/usr/local/texlive/texmf-local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat("/usr/local/texlive/2019/texmf-config", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat("/usr/local/texlive/2019/texmf-config/ls-R", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
@@ -34,9 +34,10 @@ stat("/usr/local/texlive/2019/texmf-dist", {st_mode=S_IFDIR|0755, st_size=4096, 
 stat("/usr/local/texlive/2019/texmf-dist/ls-R", {st_mode=S_IFREG|0644, st_size=3698147, ...}) = 0
 stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat("/usr/local/texlive/2019/texmf-dist/tex/plain/knuth-lib/story.tex", {st_mode=S_IFREG|0644, st_size=412, ...}) = 0
-stat("/home/jfine/.texlive2019/texmf-config/web2c/pdftex", 0x7ffdba5c5b60) = -1 ENOENT (No such file or directory)
-stat("/home/jfine/.texlive2019/texmf-var/web2c/pdftex", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-stat("/home/jfine/.texlive2019/texmf-var/web2c/pdftex/pdftex.fmt", {st_mode=S_IFREG|0644, st_size=3899591, ...}) = 0
+stat("/home/jfine/.texlive2019/texmf-config/web2c/pdftex", 0x7fff727ed7e0) = -1 ENOENT (No such file or directory)
+stat("/home/jfine/.texlive2019/texmf-var/web2c/pdftex", 0x7fff727ed7e0) = -1 ENOENT (No such file or directory)
+stat("/home/jfine/texmf/web2c/pdftex", 0x7fff727ed7e0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdftex.fmt", {st_mode=S_IFREG|0644, st_size=3899591, ...}) = 0
 stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3687, ...}) = 0
 stat("/usr/local/texlive/2019/texmf-dist/tex/plain/knuth-lib/story.tex", {st_mode=S_IFREG|0644, st_size=412, ...}) = 0
 stat("/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map", {st_mode=S_IFREG|0644, st_size=3236234, ...}) = 0
