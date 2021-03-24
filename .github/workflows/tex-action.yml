@@ -1,0 +1,23 @@
+name: TeX Action
+
+on: [workflow_dispatch]
+
+jobs:
+    tex-action:
+        name: TeX the file
+        runs-on: ubuntu-latest
+        
+        steps:
+        - name: Checkout code
+          uses: actions/checkout@v2
+          
+        - name: Where am I
+          run: pwd
+          
+        - name: Run TeX
+          run: ./bin/pdftex story
+            working-directory: ./finish
+          env: 
+              TEXMFCNF: texlive/texmf-dist/web2c/
+              TEXFORMATS: texlive/texmf-var/web2c/pdftex/ 
+       
