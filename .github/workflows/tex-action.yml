@@ -21,3 +21,9 @@ jobs:
                 TEXMFCNF: texlive/texmf-dist/web2c/
                 TEXFORMATS: texlive/texmf-var/web2c/pdftex/ 
        
+        - name: Upload PDF file
+          uses: actions/upload-artifact@v2
+          working-directory: ./finish
+          with:
+            name: LOG
+            path: story.log
