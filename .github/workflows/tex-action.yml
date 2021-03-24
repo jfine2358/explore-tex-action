@@ -11,8 +11,6 @@ jobs:
                 working-directory: ./finish
         
         steps:
-        - name: kpathsea?
-          run: /bin/ls -R /usr/lib/
         
         - name: Checkout code
           uses: actions/checkout@v2
