@@ -1,18 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdftex 2021.3.24)  24 MAR 2021 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdftex 2021.3.24)  24 MAR 2021 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **story \end
-(./story.tex [1
-
-pdfTeX warning: ./bin/pdftex (file pdftex.map): cannot open font map file
-]) </home/jfine/.texlive2019/texmf-var/fonts/pk/ljfour/public/cm/cmr10.600pk> <
-/home/jfine/.texlive2019/texmf-var/fonts/pk/ljfour/public/cm/cmsl10.600pk> </ho
-me/jfine/.texlive2019/texmf-var/fonts/pk/ljfour/public/cm/cmbx10.600pk>
-Output written on story.pdf (1 page, 16049 bytes).
-PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(./story.tex [1{pdftex.map}])
+!pdfTeX error: ./bin/pdftex (file cmbx10.pfb): cannot open Type 1 font file for
+ reading
+ ==> Fatal error occurred, no output PDF file produced!
