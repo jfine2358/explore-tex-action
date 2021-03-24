@@ -12,4 +12,7 @@ cp "$(which pdftex)" bin/
 
 
 # This is also justified for now.
-cp $(kpsewhich story.tex) story.tex
+# Prevent: cp: './story.tex' and 'story.tex' are the same file
+if [ ! -f story.tex ]; then
+    cp $(kpsewhich story.tex) story.tex
+fi
