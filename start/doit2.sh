@@ -13,9 +13,11 @@ cat 2019.openat \
 	  > files.txt
 
 
-
+# $ ls -l texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map 
+# .. texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map -> pdftex_dl14.map
 tar \
     -C /usr/local/texlive/2019/ \
+    --dereference \
     -cvzf texlive.tar \
     $(cat files.txt | cut -d / -f 6-) \
     > texlive.fls
