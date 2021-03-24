@@ -6,6 +6,9 @@ jobs:
     tex-action:
         name: TeX the file
         runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: ./finish
         
         steps:
         - name: Checkout code
@@ -16,10 +19,9 @@ jobs:
           
         - name: Run TeX
           run: ./bin/pdftex story
-          working-directory: ./finish
           env: 
-                TEXMFCNF: texlive/texmf-dist/web2c/
-                TEXFORMATS: texlive/texmf-var/web2c/pdftex/ 
+                TEXMFCNF: ./texlive/texmf-dist/web2c/
+                TEXFORMATS: ./texlive/texmf-var/web2c/pdftex/ 
        
         - name: Upload PDF file
           uses: actions/upload-artifact@v2
