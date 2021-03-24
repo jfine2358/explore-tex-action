@@ -5,7 +5,7 @@ on: [workflow_dispatch]
 jobs:
     tex-action:
         name: TeX the file
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-18.04
         defaults:
             run:
                 working-directory: ./finish
