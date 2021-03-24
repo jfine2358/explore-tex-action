@@ -18,7 +18,7 @@ jobs:
           run: pwd
           
         - name: Run TeX
-          run: ./bin/pdftex story
+          run: strace -o ./story.strace ./bin/pdftex story
           continue-on-error: true
           env: 
                 TEXMFCNF: ./texlive/texmf-dist/web2c/
@@ -28,4 +28,4 @@ jobs:
           uses: actions/upload-artifact@v2
           with:
             name: LOG
-            path: story.log
+            path: ./finish/story.strace
