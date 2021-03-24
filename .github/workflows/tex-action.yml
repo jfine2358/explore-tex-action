@@ -28,5 +28,5 @@ jobs:
         - name: Upload PDF file
           uses: actions/upload-artifact@v2
           with:
-            name: LOG
-            path: ./finish/story.strace
+            name: PDF
+            path: ./finish/story.pdf
