@@ -24,8 +24,8 @@ jobs:
           run: strace -o ./story.strace ./bin/pdftex story
           continue-on-error: true
           env: 
-                TEXMFCNF: ./texlive/texmf-dist/web2c/
-                TEXFORMATS: ./texlive/texmf-var/web2c/pdftex/ 
+                TEXMFCNF: texlive/texmf-dist/web2c/
+                TEXFORMATS: texlive/texmf-var/web2c/pdftex/ 
        
         - name: Upload PDF file
           uses: actions/upload-artifact@v2
