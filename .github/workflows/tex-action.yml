@@ -19,7 +19,7 @@ jobs:
           run: pwd
           
         - name: Run TeX
-          run: strace -o ./story.strace ./bin/pdftex story
+          run: ./run-pdftex.sh
           continue-on-error: true
           env: 
                 TEXMFCNF: texlive/texmf-dist/web2c/
