@@ -1,0 +1,11 @@
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/bin", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+lstat("/usr/local/bin/pdftex", {st_mode=S_IFLNK|0777, st_size=47, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/texlive", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/texlive/2019", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/texlive/2019/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/texlive/2019/bin/x86_64-linux", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+lstat("/usr/local/texlive/2019/bin/x86_64-linux/pdftex", {st_mode=S_IFREG|0755, st_size=2219712, ...}) = 0

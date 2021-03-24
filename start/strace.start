@@ -1,0 +1,3 @@
+getcwd("/home/jfine/scratch/y2021p005/start", 4097) = 36
+read(3, "sp-start.tikz\nbsp-verschachtelt-"..., 4096) = 4096
+write(6, "\nendstream\nendobj\nstartxref\n3584"..., 40) = 40
