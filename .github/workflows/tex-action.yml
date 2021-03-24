@@ -23,7 +23,6 @@ jobs:
        
         - name: Upload PDF file
           uses: actions/upload-artifact@v2
-          working-directory: ./finish
           with:
             name: LOG
-            path: story.log
+            path: .finish/story.log
