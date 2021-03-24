@@ -15,9 +15,9 @@ jobs:
           run: pwd
           
         - name: Run TeX
-            run: ./bin/pdftex story
-            working-directory: ./finish
-            env: 
+          run: ./bin/pdftex story
+          working-directory: ./finish
+          env: 
                 TEXMFCNF: texlive/texmf-dist/web2c/
                 TEXFORMATS: texlive/texmf-var/web2c/pdftex/ 
        
