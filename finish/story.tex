@@ -1,3 +1,9 @@
+%% Taken from Don Knuth's The TeXbook, Chapter 6: Running TeX.
+
+%% Only the fonts needed by the document are available. So
+%% the \br, \sl and \rm are the only changes of font that work! And
+%% using special characters and mathmode will fail.
+
 \hrule
 \vskip 1in
 \centerline{\bf A SHORT STORY}
@@ -16,3 +22,6 @@ typesetting beautiful documents.
 \vskip 1in
 \hrule
 \vfill\eject
+
+
+\end %% Plain TeX, so \end tells TeX to finish everything.
